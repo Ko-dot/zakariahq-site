@@ -99,8 +99,7 @@ h2{font-size:clamp(2.3rem,5vw,3.8rem);letter-spacing:-.02em;line-height:1.05;mar
 .vc:hover{box-shadow:0 30px 80px #4F8CFF77}
 @keyframes ring{to{--a:360deg}}
 .vi{border-radius:26px;overflow:hidden;background:var(--panel)}
-.vi video{display:block;width:100%;height:auto;max-height:80vh;background:#000}
-
+.vi video{display:block;width:100%;aspect-ratio:16/9;background:#2a1226;object-fit:cover}
 /* stats */
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
 .st{text-align:center;padding:46px 20px;border-radius:32px;background:var(--panel);border:1px solid var(--line);box-shadow:var(--shadow);transition:transform .35s cubic-bezier(.3,1.6,.5,1)}
